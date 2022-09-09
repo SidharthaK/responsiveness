@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  margin: 0px;
+}
+#root {
+  min-height: 100vh;
+  background-color: #323f4b;
+}
+.main_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1f2933;
+  padding: 25px;
+}
+.profile_image {
+  width: 100%;
+}
+.first_container {
+  width: 48%;
+}
+.second_container {
+  width: 48%;
+}
+.span_heading {
+  color: #cced00;
+}
+.text_color {
+  color: #fff;
+}
+.para_color {
+  color: #9aa5b1;
+  font-size: 30px;
+}
+.skills_container {
+  background-color: #323f4b;
+  padding: 20px;
+}
+.skills_image {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.skills_row_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+@media (max-width: 1123px) {
+  .main_container {
+    flex-direction: column;
+  }
+  .first_container {
+    width: 100%;
+  }
+  .second_container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .skills_row_container {
+    justify-content: flex-start;
+  }
+}
